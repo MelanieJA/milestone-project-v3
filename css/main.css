@@ -1,0 +1,138 @@
+/****font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif; ****/
+
+body {
+    font-family: 'open sans', sans-serif; 
+}
+
+/**** GRID ****/
+
+.full-width{
+    width:1400px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.third-width{
+    width:466px;
+    float:left;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/*** HEADER ***/
+
+nav {
+    text-align: right;
+    padding-top: 75px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 24px;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'libre baskerville', serif;
+}
+
+.world{
+    padding-top: 170px;
+    padding-left: 100px;
+}
+
+.world span{
+    color: #ff654a;
+}
+
+h2{
+    font-family: 'open sans', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    padding-left: 100px;
+    padding-bottom: 195px;
+}
+
+/*** ABOUT ME SECTION***/
+
+#about{
+    padding:160px 0px 176px 0px;
+    background-color: #ff654a;
+    text-align: center;
+    color: white;
+}
+
+#about h3{
+    font-family: 'libre baskerville', serif;
+    font-size: 36px;
+    font-weight: bold;
+ }
+
+ #about p{
+     font-size: 24px;
+ }
+
+ /***PORTFOLIO SECTION ****/
+
+ #portfolio{
+    padding: 160px 0px 200px 0px;
+    text-align: center;
+    color: black;
+    
+}
+
+#portfolio h3{
+    font-family: 'libre baskerville', serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 110px;
+}
+
+.third-width p{
+    font-family: 'open sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.recipe{
+    width: 350px;
+}
+
+/***** CONTACT SECTION ****/
+
+#contact{
+    background-color: #ff654a;    
+    padding:160px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    clear:both;
+    
+}
+
+#contact h3{
+    font-family: 'libre baskerville', serif;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+footer{
+    padding: 200px 0 10px 0;
+    clear:both;
+}
